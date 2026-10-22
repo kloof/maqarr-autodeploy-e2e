@@ -4,14 +4,14 @@
   "entry": "server.js",
   "health_path": "/",
   "language": "javascript",
-  "log_marker": "maqarr-auto-e2e:javascript:v1 ready",
-  "marker": "maqarr-auto-e2e:javascript:v1",
+  "log_marker": "maqarr-auto-e2e:javascript:v2 ready",
+  "marker": "maqarr-auto-e2e:javascript:v2",
   "preset": "node",
   "source_sha256": {
     "package-lock.json": "f6b379a60c4ca7d6a33fea533abd4e3ca1dc165dbda4fe6ff8eb9e444b1b47a6",
     "package.json": "98622f2318ce78871a42a8e78eea49820fbefedacc30dd76a5c6418306b12fc1",
-    "server.js": "341328e5783191f0de0760bf574ad5292f30c1c763532681f790b9cb3f656d95"
+    "server.js": "c96331e9cdffb61c209a5dffa34d655a3e3aa80303caf2e01ff417e1a094cee7"
   },
   "start_command": "npm start",
-  "variant": "v1"
+  "variant": "v2"
 }
