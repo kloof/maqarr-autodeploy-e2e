@@ -2,16 +2,17 @@
   "app_port": 8000,
   "ci_pass": true,
   "entry": "main.go",
+  "expected_compiler_success": false,
   "health_path": "/",
   "language": "go",
-  "log_marker": "maqarr-auto-e2e:go:ci-pass ready",
-  "marker": "maqarr-auto-e2e:go:ci-pass",
+  "log_marker": "maqarr-auto-e2e:go:build-fail ready",
+  "marker": "maqarr-auto-e2e:go:build-fail",
   "preset": "go",
   "source_sha256": {
     "go.mod": "6e57a468ed56cb20320ff1344cf82144dda87ff3d9c69bca5eacde68c613941e",
     "go.sum": "4287858b5a26193e956121259679e31c96ae07eb3f2a486623641c22496bacce",
-    "main.go": "837da0e1604c7f699c0290e3adc4a583ec1139b38db303cffb3ad54400ac41f3"
+    "main.go": "6ea223d66a9a3a150ac9a76f6510fc3d92ad73e0fed3bbb8a8a26c313cea95c4"
   },
   "start_command": "./maqarr-service",
-  "variant": "ci-pass"
+  "variant": "build-fail"
 }

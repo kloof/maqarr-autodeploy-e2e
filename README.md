@@ -1,5 +1,6 @@
-# Maqarr auto-deploy acceptance sample
+# Maqarr Go failure/recovery acceptance sample
 
-Disposable public sample for the independent test environment.
-Branch: go; version: ci-pass.
-CI verifies fixture structure and an intentional pass/fail switch; actual compilation and serving are checked separately by Maqarr.
+Disposable public fixture for the independent test environment.
+Version: build-fail. Structural CI intentionally passes for both commits.
+The build-fail version has one deliberate undefined Go symbol; recovery removes it.
+Actual compilation, preserved healthy release and recovery are verified by Maqarr.
