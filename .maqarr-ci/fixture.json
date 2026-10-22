@@ -1,0 +1,15 @@
+{
+  "app_port": 8000,
+  "ci_pass": true,
+  "entry": "server.py",
+  "health_path": "/",
+  "language": "python",
+  "log_marker": "maqarr-auto-e2e:python:v1 ready",
+  "marker": "maqarr-auto-e2e:python:v1",
+  "preset": "python",
+  "source_sha256": {
+    "server.py": "fbdde70b221a7a9501676ed83d32cf7fd39226c184f350becb251274aed22db4"
+  },
+  "start_command": "python3 server.py",
+  "variant": "v1"
+}
