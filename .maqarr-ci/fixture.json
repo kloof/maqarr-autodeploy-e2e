@@ -1,15 +1,15 @@
 {
   "app_port": 8000,
-  "ci_pass": false,
+  "ci_pass": true,
   "entry": "server.py",
   "health_path": "/",
   "language": "python",
-  "log_marker": "maqarr-auto-e2e:python:ci-fail ready",
-  "marker": "maqarr-auto-e2e:python:ci-fail",
+  "log_marker": "maqarr-auto-e2e:python:ci-pass ready",
+  "marker": "maqarr-auto-e2e:python:ci-pass",
   "preset": "python",
   "source_sha256": {
-    "server.py": "34ec4776f0ecd8ad0537585de94d46e4bd8c9a953e7425ec56711f1835dbc88a"
+    "server.py": "1a7805adef7a0ae771be6a4cd2e2323d167f70e64712aae39cd302c0d6326058"
   },
   "start_command": "python3 server.py",
-  "variant": "ci-fail"
+  "variant": "ci-pass"
 }
