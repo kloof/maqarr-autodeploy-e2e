@@ -17,11 +17,8 @@ func main() {
 	router := chi.NewRouter()
 	router.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
-		fmt.Fprintln(w, "maqarr-auto-e2e:go:build-fail")
+		fmt.Fprintln(w, "maqarr-auto-e2e:go:recovery")
 	})
-	log.Printf("maqarr-auto-e2e:go:build-fail ready :%s", port)
+	log.Printf("maqarr-auto-e2e:go:recovery ready :%s", port)
 	log.Fatal(http.ListenAndServe(":"+port, router))
 }
-
-// Deliberate compiler failure for test-only recovery acceptance.
-var maqarrDeliberateCompilerFailure = maqarrMissingSymbolForAcceptance

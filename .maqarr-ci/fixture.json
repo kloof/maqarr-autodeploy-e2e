@@ -2,17 +2,17 @@
   "app_port": 8000,
   "ci_pass": true,
   "entry": "main.go",
-  "expected_compiler_success": false,
+  "expected_compiler_success": true,
   "health_path": "/",
   "language": "go",
-  "log_marker": "maqarr-auto-e2e:go:build-fail ready",
-  "marker": "maqarr-auto-e2e:go:build-fail",
+  "log_marker": "maqarr-auto-e2e:go:recovery ready",
+  "marker": "maqarr-auto-e2e:go:recovery",
   "preset": "go",
   "source_sha256": {
     "go.mod": "6e57a468ed56cb20320ff1344cf82144dda87ff3d9c69bca5eacde68c613941e",
     "go.sum": "4287858b5a26193e956121259679e31c96ae07eb3f2a486623641c22496bacce",
-    "main.go": "6ea223d66a9a3a150ac9a76f6510fc3d92ad73e0fed3bbb8a8a26c313cea95c4"
+    "main.go": "af5d1f5f93e002cc4bce54ad90749d8f7e4bbc6b8ab7ca0cbe0ef9fc545e483b"
   },
   "start_command": "./maqarr-service",
-  "variant": "build-fail"
+  "variant": "recovery"
 }
