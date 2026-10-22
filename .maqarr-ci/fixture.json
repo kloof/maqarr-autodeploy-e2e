@@ -4,15 +4,15 @@
   "entry": "src/server.ts",
   "health_path": "/",
   "language": "typescript",
-  "log_marker": "maqarr-auto-e2e:typescript:v1 ready",
-  "marker": "maqarr-auto-e2e:typescript:v1",
+  "log_marker": "maqarr-auto-e2e:typescript:v2 ready",
+  "marker": "maqarr-auto-e2e:typescript:v2",
   "preset": "node",
   "source_sha256": {
     "package-lock.json": "0387674e5f4dec7a4bdf1b0196f433a797e3f321035fa21dded00470d11b53b5",
     "package.json": "b13f1a094f8446436369b261b2d54d0278623865c3d304a92558388f41d04e1c",
-    "src/server.ts": "c31f120a871dd22c1cf38f8a54542406d9c540ce7540967d7a4c8c152855eb61",
+    "src/server.ts": "63dfb57b25510574091e9f17b9dc0d0f3fa8afae1eea26d906562f3d355db328",
     "tsconfig.json": "4fe59310e96e7d00d1f4bcbcae1c1a186d6efad064e216036cca7d5d68dd3685"
   },
   "start_command": "npm start",
-  "variant": "v1"
+  "variant": "v2"
 }
