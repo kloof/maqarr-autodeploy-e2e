@@ -4,12 +4,12 @@
   "entry": "server.py",
   "health_path": "/",
   "language": "python",
-  "log_marker": "maqarr-auto-e2e:python:v1 ready",
-  "marker": "maqarr-auto-e2e:python:v1",
+  "log_marker": "maqarr-auto-e2e:python:v2 ready",
+  "marker": "maqarr-auto-e2e:python:v2",
   "preset": "python",
   "source_sha256": {
-    "server.py": "fbdde70b221a7a9501676ed83d32cf7fd39226c184f350becb251274aed22db4"
+    "server.py": "5514814e74dc0f48b8539d7be363f6136f513f784cb9277a8198573c2dd482a0"
   },
   "start_command": "python3 server.py",
-  "variant": "v1"
+  "variant": "v2"
 }
