@@ -4,14 +4,14 @@
   "entry": "src/main.rs",
   "health_path": "/",
   "language": "rust",
-  "log_marker": "maqarr-auto-e2e:rust:v1 ready",
-  "marker": "maqarr-auto-e2e:rust:v1",
+  "log_marker": "maqarr-auto-e2e:rust:v2 ready",
+  "marker": "maqarr-auto-e2e:rust:v2",
   "preset": "rust",
   "source_sha256": {
     "Cargo.lock": "b40a525d0395053f3ed1968f61896ef18923ab78d0ec1efbe158bf5448344d93",
     "Cargo.toml": "27fc706b7a7c4ec930717d24641be95e08a84f98906be6f93dc93c596622ff22",
-    "src/main.rs": "1f6816c100ec85d367cf355fce21f6d7b5de4e984e3469e548238802ba311afa"
+    "src/main.rs": "347c4bb4cb623151f6954b56f80d3791ad33fd1b6abfd89ba1c3382962514435"
   },
   "start_command": "./maqarr-service",
-  "variant": "v1"
+  "variant": "v2"
 }
