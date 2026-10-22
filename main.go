@@ -17,8 +17,8 @@ func main() {
 	router := chi.NewRouter()
 	router.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
-		fmt.Fprintln(w, "maqarr-auto-e2e:go:ci-fail")
+		fmt.Fprintln(w, "maqarr-auto-e2e:go:ci-pass")
 	})
-	log.Printf("maqarr-auto-e2e:go:ci-fail ready :%s", port)
+	log.Printf("maqarr-auto-e2e:go:ci-pass ready :%s", port)
 	log.Fatal(http.ListenAndServe(":"+port, router))
 }
