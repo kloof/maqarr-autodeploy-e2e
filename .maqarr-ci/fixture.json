@@ -4,14 +4,14 @@
   "entry": "server.rb",
   "health_path": "/",
   "language": "ruby",
-  "log_marker": "maqarr-auto-e2e:ruby:v1 ready",
-  "marker": "maqarr-auto-e2e:ruby:v1",
+  "log_marker": "maqarr-auto-e2e:ruby:v2 ready",
+  "marker": "maqarr-auto-e2e:ruby:v2",
   "preset": "ruby",
   "source_sha256": {
     "Gemfile": "eeba60139869da3f6f94a6b7daa76b7e2de27c2ca12b4fcacf2af43045cdec0e",
     "Gemfile.lock": "28231d101c1e5e5eae68098a5dccdf575a46daefd3517de5f3d749f843e985fb",
-    "server.rb": "90b45c1d27dc10c7af44862b41806316fb0f607392a667c6e1a9d76aa77dc693"
+    "server.rb": "3a2c3f379b4c3005b72834893f280dc806131b1324af598ea2b5e359674833fe"
   },
   "start_command": "bundle exec ruby server.rb",
-  "variant": "v1"
+  "variant": "v2"
 }
