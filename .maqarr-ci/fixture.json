@@ -4,14 +4,14 @@
   "entry": "lib/application.ex",
   "health_path": "/",
   "language": "elixir",
-  "log_marker": "maqarr-auto-e2e:elixir:v1 ready",
-  "marker": "maqarr-auto-e2e:elixir:v1",
+  "log_marker": "maqarr-auto-e2e:elixir:v2 ready",
+  "marker": "maqarr-auto-e2e:elixir:v2",
   "preset": "elixir",
   "source_sha256": {
-    "lib/application.ex": "7aa63dcd0d1cd66384ca5fb0892ca4ec62305c379813dd6eea8fafc6c3926208",
+    "lib/application.ex": "5c97eb27d90bd020520ff22946486e9ab11656f30c42678fa81ddb5e3e181f59",
     "mix.exs": "51fc83d00ebad5bccf07ccf5ee70689aa58d0eb8491f15e18427854f741a54c8",
     "mix.lock": "9fc396f9f77d2257c1985ca448ae08e32d85fda26d787d2fb37f79258b98328a"
   },
   "start_command": "./maqarr-release/bin/maqarr_demo start",
-  "variant": "v1"
+  "variant": "v2"
 }
