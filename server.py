@@ -21,7 +21,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/slow":
             time.sleep(20)
-        self.reply(200, {"ok": True, "version": "maqarr-auto-e2e:python:v2", "instance": INSTANCE})
+        self.reply(200, {"ok": True, "version": "maqarr-auto-e2e:python:ci-fail", "instance": INSTANCE})
 
     def do_POST(self):
         if self.path == "/exit":
@@ -36,5 +36,5 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print("maqarr-auto-e2e:python:v2 ready", flush=True)
+    print("maqarr-auto-e2e:python:ci-fail ready", flush=True)
     http.server.HTTPServer(("0.0.0.0", 8000), Handler).serve_forever()
