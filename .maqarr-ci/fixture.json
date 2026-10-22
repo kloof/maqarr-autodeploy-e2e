@@ -1,17 +1,17 @@
 {
   "app_port": 8000,
-  "ci_pass": true,
+  "ci_pass": false,
   "entry": "main.go",
   "health_path": "/",
   "language": "go",
-  "log_marker": "maqarr-auto-e2e:go:v2 ready",
-  "marker": "maqarr-auto-e2e:go:v2",
+  "log_marker": "maqarr-auto-e2e:go:ci-fail ready",
+  "marker": "maqarr-auto-e2e:go:ci-fail",
   "preset": "go",
   "source_sha256": {
     "go.mod": "6e57a468ed56cb20320ff1344cf82144dda87ff3d9c69bca5eacde68c613941e",
     "go.sum": "4287858b5a26193e956121259679e31c96ae07eb3f2a486623641c22496bacce",
-    "main.go": "4e409e866acd281bf4d2854b2188510c4b6f613620ad348ba2a3d46b426ce38f"
+    "main.go": "f5adbc5e33c59b9afc6b6510cb8f575d7122775e32a2a1c9e0ac5067b031b61f"
   },
   "start_command": "./maqarr-service",
-  "variant": "v2"
+  "variant": "ci-fail"
 }
