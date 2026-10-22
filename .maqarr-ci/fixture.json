@@ -1,17 +1,17 @@
 {
   "app_port": 8000,
-  "ci_pass": false,
+  "ci_pass": true,
   "entry": "src/main.rs",
   "health_path": "/",
   "language": "rust",
-  "log_marker": "maqarr-auto-e2e:rust:ci-fail ready",
-  "marker": "maqarr-auto-e2e:rust:ci-fail",
+  "log_marker": "maqarr-auto-e2e:rust:ci-pass ready",
+  "marker": "maqarr-auto-e2e:rust:ci-pass",
   "preset": "rust",
   "source_sha256": {
     "Cargo.lock": "b40a525d0395053f3ed1968f61896ef18923ab78d0ec1efbe158bf5448344d93",
     "Cargo.toml": "27fc706b7a7c4ec930717d24641be95e08a84f98906be6f93dc93c596622ff22",
-    "src/main.rs": "cf669e267818bc9a24730ba29c916bb335ae6d56f0db9d5ff1e2e48e03bb07a2"
+    "src/main.rs": "fa5ced3662b7810d0919fede449ddcb95868b506ff7163a22c40a5de40d9bc21"
   },
   "start_command": "./maqarr-service",
-  "variant": "ci-fail"
+  "variant": "ci-pass"
 }
