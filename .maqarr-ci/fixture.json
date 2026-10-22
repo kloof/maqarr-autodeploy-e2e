@@ -1,17 +1,17 @@
 {
   "app_port": 8000,
-  "ci_pass": true,
+  "ci_pass": false,
   "entry": "server.js",
   "health_path": "/",
   "language": "javascript",
-  "log_marker": "maqarr-auto-e2e:javascript:v2 ready",
-  "marker": "maqarr-auto-e2e:javascript:v2",
+  "log_marker": "maqarr-auto-e2e:javascript:ci-fail ready",
+  "marker": "maqarr-auto-e2e:javascript:ci-fail",
   "preset": "node",
   "source_sha256": {
     "package-lock.json": "f6b379a60c4ca7d6a33fea533abd4e3ca1dc165dbda4fe6ff8eb9e444b1b47a6",
     "package.json": "98622f2318ce78871a42a8e78eea49820fbefedacc30dd76a5c6418306b12fc1",
-    "server.js": "c96331e9cdffb61c209a5dffa34d655a3e3aa80303caf2e01ff417e1a094cee7"
+    "server.js": "19103156a963e1df6f707eac73f2e1a368d18f9aef26fb12d0e49603f473cc9c"
   },
   "start_command": "npm start",
-  "variant": "v2"
+  "variant": "ci-fail"
 }
